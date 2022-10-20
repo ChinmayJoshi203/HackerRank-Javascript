@@ -5,16 +5,16 @@
  */
 class Polygon{
         
-    constructor(arr)
-{
-    this.sides=arr
-}
-    perimeter()
+        constructor(arr)
     {
-        let peri=0
-        this.sides.map(item=>peri+=item)
-        return peri
+        this.sides=arr
     }
+        perimeter()
+        {
+            let peri=0
+            this.sides.map(item=>peri+=item)
+            return peri
+        }
 
 }
 
